@@ -150,11 +150,11 @@
     
   - 照片fov内的点云+bbox：
   
-    ![kitti_cls_bbox_img_fov](documents\kitti_cls_bbox_img_fov.png)
+    ![kitti_cls_bbox_img_fov](documents/kitti_cls_bbox_img_fov.png)
   
   - 照片+bbox：
   
-    ![kitti_cls_bbox_img](documents\kitti_cls_bbox_img.png)
+    ![kitti_cls_bbox_img](documents/kitti_cls_bbox_img.png)
 
 ### 3. `extract_kitti_cls.py`:
 
@@ -199,15 +199,15 @@
 
   - 去除ground truths (代码中请先解除相应位置的可视化代码):
 
-    ![gt_removed](documents\gt_removed.png)
+    ![gt_removed](documents/gt_removed.png)
 
   - RANSAC去除地面 (代码中请先解除相应位置的可视化代码):
 
-    ![ground_removed](documents\ground_removed.png)
+    ![ground_removed](documents/ground_removed.png)
 
   - DBSCAN得到GO聚类 (代码中请先解除相应位置的可视化代码):
 
-    ![go_clusters](documents\go_clusters.png)
+    ![go_clusters](documents/go_clusters.png)
 
 ### 4. `dataset.py`:
 
@@ -289,7 +289,7 @@
 
   - train/val loss/acc:
 
-    ![tensorboard](documents\tensorboard.png)
+    ![tensorboard](documents/tensorboard.png)
 
     val loss反弹的三条曲线均为在dirty data上训练时造成的，可见大量点数少特征相似的训练样本使模型为了区分它们而过拟合了。
 
@@ -374,27 +374,27 @@
 
   - point cloud groundtruths:
 
-    ![gt_pcd](documents\gt_pcd.png)
+    ![gt_pcd](documents/gt_pcd.png)
 
   - image groundtruths:
 
-    ![gt_img](documents\gt_img.png)
+    ![gt_img](documents/gt_img.png)
 
   - clusters:
 
-    ![clusters](documents\clusters.png)
+    ![clusters](documents/clusters.png)
 
   - raw inference result:
 
-    ![raw_inference_result](documents\raw_inference_result.png)
+    ![raw_inference_result](documents/raw_inference_result.png)
 
   - processed inference result:
 
-    ![processed_inference_result](documents\processed_inference_result.png)
+    ![processed_inference_result](documents/processed_inference_result.png)
 
   - processed inference result on image:
 
-    ![pred_img](documents\pred_img.png)
+    ![pred_img](documents/pred_img.png)
 
   - inference result in KITTI format (example not related to 7301):
 
@@ -528,14 +528,14 @@
 
     - vehicle_detection_3d:
 
-      ![vehicle_pr](kitti_eval\results\plot\vehicle_detection_3d.png)
+      ![vehicle_pr](kitti_eval/results/plot/vehicle_detection_3d.png)
 
     - pedestrian_detection_3d:
 
-      ![pedestrian_pr](kitti_eval\results\plot\pedestrian_detection_3d.png)
+      ![pedestrian_pr](kitti_eval/results/plot/pedestrian_detection_3d.png)
 
     - cyclist_detection_3d:
 
-      ![cyclist_pr](kitti_eval\results\plot\cyclist_detection_3d.png)
+      ![cyclist_pr](kitti_eval/results/plot/cyclist_detection_3d.png)
 
       
